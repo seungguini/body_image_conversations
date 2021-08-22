@@ -13,8 +13,6 @@ from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 from collections import Counter
 import matplotlib.pyplot as plt
-%matplotlib inline
-
 
 get_ipython().run_line_magic('matplotlib', 'inline')
 pd.options.mode.chained_assignment = None
